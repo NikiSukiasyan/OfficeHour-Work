@@ -1,0 +1,19 @@
+#employee-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.employee-name {
+  font-weight: bold;
+}
+
+.employee-salary {
+  font-weight: lighter;
+}
